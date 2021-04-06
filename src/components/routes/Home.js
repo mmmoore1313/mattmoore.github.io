@@ -1,9 +1,11 @@
 import React from 'react'
 import Layout from '../shared/layout'
+import { Card } from 'react-bootstrap'
 
 const Home = () => (
   <Layout>
-    <h4>Welcome to My Portfolio</h4>
+    <Card.Title>Welcome to My Portfolio</Card.Title>
+    <Card.Text>This Is the Home Card</Card.Text>
   </Layout>
 )
 

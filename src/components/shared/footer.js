@@ -3,8 +3,8 @@ import { Container } from 'react-bootstrap'
 
 const Footer = () => (
   <Fragment>
-    <Container>
-      <p>SOME DATA HERE</p>
+    <Container className="footer">
+      SOME DATA HERE
     </Container>
   </Fragment>
 )
