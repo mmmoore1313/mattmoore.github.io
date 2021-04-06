@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import React from 'react'
+import { Route, withRouter } from 'react-router-dom'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// styles
+import "bootstrap/scss/bootstrap.scss";
 
-export default App;
+// routes
+import Home from './components/routes/Home'
+
+const App = props => (
+  <React.Fragment>
+    <div className="App">
+      {props.location.state ? props.location.state.msg : null}
+    </div>
+    <Route exact path='/' component={Home} />
+  </React.Fragment>
+)
+
+export default withRouter(App)
