@@ -16,7 +16,7 @@
 > ## Projects
 > | For | Individual | Team |
 > |--|--|--|
-> | General Assembly |  |  |
+> | General Assembly | - [Tic Tac Toe]()<br />- [StudyApp]() | - [SurveyUs]() |
 > | SPEC |  |  |
 > | MSSA |  |  |
 >
