@@ -1,16 +1,22 @@
 import React, { Fragment } from 'react'
 import Header from './header'
 import Footer from './footer'
-import { Card } from 'react-bootstrap'
+import BPane from './buttonPane.js'
+import { Card, Container } from 'react-bootstrap'
 
 const Layout = props => (
   <Fragment>
     <Header />
-    <Card style={{ width: '18rem' }}>
-      <Card.Body>
-        {props.children}
-      </Card.Body>
-    </Card>
+    <Container>
+      <Card style={{ width: '18rem' }}>
+        <Card.Body>
+          {props.children}
+        </Card.Body>
+        <Card.Footer>
+        <BPane />
+        </Card.Footer>
+      </Card>
+    </Container>
     <Footer />
   </Fragment>
 )

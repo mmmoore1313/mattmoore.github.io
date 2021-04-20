@@ -23,9 +23,10 @@
 > ###### [(Return to top)](https://github.com/mmmoore1313/mattmoore.github.io#matt-moores-digital-portfolio)
 >
 > ## Technologies Employed
->> | **General Development** | **[Client]() Development** | **[API]() Development** | **Deployment** |
->> |--|--|--|--|
->> | [Technology Name](docs) | [Technology Name](docs) | [Technology Name](docs) | [Technology Name](docs) |
+>> | **General Development** |  **Deployment** |
+>> |--|--|
+>> | [Technology Name](docs) | [Technology Name](docs) | 
+>> | [Technology Name](docs) | [Technology Name](docs) |
 >
 >
 > ###### [(Return to top)](https://github.com/mmmoore1313/mattmoore.github.io#matt-moores-digital-portfolio)

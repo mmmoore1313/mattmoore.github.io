@@ -7,6 +7,7 @@ import "bootstrap/scss/bootstrap.scss";
 
 // routes
 import Home from './components/routes/Home'
+import About from './components/routes/About'
 
 const App = props => (
   <React.Fragment>
@@ -14,6 +15,7 @@ const App = props => (
       {props.location.state ? props.location.state.msg : null}
     </div>
     <Route exact path='/' component={Home} />
+    <Route exact path='/About' component={About} />
   </React.Fragment>
 )
 
