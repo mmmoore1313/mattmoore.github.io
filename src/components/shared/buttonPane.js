@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import { Row, Col, Button, Nav } from 'react-bootstrap'
 
-const BPane = ({}) => (
+const BPane = () => (
   <Fragment>
     <Row>
       <Col>
