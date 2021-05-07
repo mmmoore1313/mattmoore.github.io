@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch } from 'react-router-dom'
-import './index.css';
+import './index.scss';
 import App from './App';
 import { HashRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
