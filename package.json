@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "classnames": "2.2.6",
+    "gulpfile": "^1.0.2",
     "moment": "2.29.1",
     "node-sass": "5.0.0",
     "nouislider": "14.6.4",
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && gulp licenses",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
@@ -57,7 +58,7 @@
   "devDependencies": {
     "bootstrap": "^4.6.0",
     "gh-pages": "^3.1.0",
-    "gulp": "4.0.2",
+    "gulp": "^4.0.2",
     "gulp-append-prepend": "1.0.8"
   }
 }
