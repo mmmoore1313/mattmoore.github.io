@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Header from './header'
+import Header from './NavBar'
 import Footer from './Footer'
 // import BPane from './buttonPane.js'
 // import { Container } from 'react-bootstrap'
