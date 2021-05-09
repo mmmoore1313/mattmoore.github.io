@@ -3,8 +3,8 @@ import { Nav, Navbar } from 'react-bootstrap'
 
 const alwaysOptions = (
   <Fragment>
-    <Nav.Link href="#/">Home</Nav.Link>
-    <Nav.Link href="#About">About</Nav.Link>
+    <Nav.Link href="/">Home</Nav.Link>
+    <Nav.Link href="About">About</Nav.Link>
   </Fragment>
 )
 
