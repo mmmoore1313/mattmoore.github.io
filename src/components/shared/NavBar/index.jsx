@@ -1,16 +1,23 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import './style.scss'
 
 const NavBar = () => {
   const [open, setOpen] = useState(false)
   const [screenWidth, setScreenWidth] = useState(0)
+  const location = useLocation()
   
   const trackScreenWidth = () => {
     const width = window.innerWidth
     setScreenWidth(width)
     if (width > 800) {
       setOpen(true)
+    }
+  }
+  
+  const handleClose = () => {
+    if (screenWidth < 800) {
+      setOpen(false)
     }
   }
   
@@ -51,6 +58,8 @@ const NavBar = () => {
           <ul style={{ left: open ? "0" : "-100vw" }}>
             <li>
               <Link
+              onClick={handleClose}
+                style={{ color: location.pathname === "/about" && "#4071f4" }}
                 to='/about'
               >
                 About
@@ -58,6 +67,8 @@ const NavBar = () => {
             </li>
             <li>
               <Link
+              onClick={handleClose}
+                style={{ color: location.pathname === "/projects" && "#4071f4" }}
                 to='/projects'
               >
                 Projects
@@ -65,6 +76,8 @@ const NavBar = () => {
             </li>
             <li>
               <Link
+              onClick={handleClose}
+                style={{ color: location.pathname === "/tutorials" && "#4071f4" }}
                 to='/tutorials'
               >
                 Tutorials
@@ -72,6 +85,8 @@ const NavBar = () => {
             </li>
             <li>
               <Link
+              onClick={handleClose}
+                style={{ color: location.pathname === "/blog" && "#4071f4" }}
                 to='/blog'
               >
                 Blog
@@ -79,6 +94,8 @@ const NavBar = () => {
             </li>
             <li>
               <Link
+              onClick={handleClose}
+                style={{ color: location.pathname === "/contact" && "#4071f4" }}
                 to='/contact'
               >
                 Contact
