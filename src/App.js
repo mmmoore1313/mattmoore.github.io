@@ -9,9 +9,10 @@ import "bootstrap/scss/bootstrap.scss";
 import Home from './components/Home/'
 import About from './components/About/'
 import Skills from './components/Skills/'
-import Projects from './components/Projects'
-import Tutorials from './components/Tutorials'
-import Contact from './components/Contact'
+import Projects from './components/Projects/'
+import Tutorials from './components/Tutorials/'
+import Contact from './components/Contact/'
+import Blog from './components/Blog/'
 
 function App(props) {
   return (
@@ -25,6 +26,7 @@ function App(props) {
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/tutorials' component={Tutorials} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/blog' component={Blog} />
         </Switch>
       </div>
     </Router>
