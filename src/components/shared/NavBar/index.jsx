@@ -51,13 +51,6 @@ const NavBar = () => {
           <ul style={{ left: open ? "0" : "-100vw" }}>
             <li>
               <Link
-                to='/'
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
                 to='/about'
               >
                 About
@@ -65,9 +58,9 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to='/skills'
+                to='/projects'
               >
-                Skills
+                Projects
               </Link>
             </li>
             <li>
@@ -82,6 +75,13 @@ const NavBar = () => {
                 to='/blog'
               >
                 Blog
+              </Link>
+            </li>
+            <li>
+              <Link
+                to='/contact'
+              >
+                Contact
               </Link>
             </li>
           </ul>
