@@ -6,8 +6,13 @@ import './App.css';
 import "bootstrap/scss/bootstrap.scss";
 
 // routes
-import Home from './components/routes/Home/Home'
-import About from './components/routes/About'
+import Home from './components/Home/'
+import About from './components/About/'
+import Skills from './components/Skills/'
+import Projects from './components/Projects/'
+import Tutorials from './components/Tutorials/'
+import Contact from './components/Contact/'
+import Blog from './components/Blog/'
 
 function App(props) {
   return (
@@ -16,7 +21,12 @@ function App(props) {
         {props.location.state ? props.location.state.msg : null}
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/About' component={About} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/skills' component={Skills} />
+          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/tutorials' component={Tutorials} />
+          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/blog' component={Blog} />
         </Switch>
       </div>
     </Router>
