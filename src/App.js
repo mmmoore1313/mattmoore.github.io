@@ -8,6 +8,7 @@ import "bootstrap/scss/bootstrap.scss";
 // routes
 import Home from './components/Home/'
 import About from './components/About/'
+import Skills from './components/Skills/'
 
 function App(props) {
   return (
@@ -16,7 +17,8 @@ function App(props) {
         {props.location.state ? props.location.state.msg : null}
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/About' component={About} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/skills' component={Skills} />
         </Switch>
       </div>
     </Router>
