@@ -25,7 +25,10 @@ const NavBar = () => {
       <div className='nav-wrapper'>
         <div className='logo'>
           <Link to='/'>
-            Home
+          <img
+            src={`${process.env.PUBLIC_URL}/circleMatt.jpeg`}
+            alt='Matt'
+          />
           </Link>
         </div>
         <div className='list-wrapper'>
@@ -62,9 +65,9 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to='/projects'
+                to='/skills'
               >
-                Projects
+                Skills
               </Link>
             </li>
             <li>
