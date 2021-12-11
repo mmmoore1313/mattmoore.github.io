@@ -7,7 +7,7 @@ description: Navigate to your organization's existing projects
 1. Go to your [GitHub](https://github.com) (you should already be signed in)
 2.  Click on your icon in the top right corner
 
-    \<img src="https://www.notion.so/GitHub-Projects-ced3fbb9d31e480aa7026ac6e5877875#7f4919715b4a4a3688aa7b70e1acd248" />
+    \<img src="https://www.notion.so/GitHub-Projects-ced3fbb9d31e480aa7026ac6e5877875#7f4919715b4a4a3688aa7b70e1acd248" width="340" height="360" />
 3.  Click `Your Organizations`
 
     \<img src="https://www.notion.so/GitHub-Projects-ced3fbb9d31e480aa7026ac6e5877875#2b644760926c49f89edc9b938a2561f6" />
